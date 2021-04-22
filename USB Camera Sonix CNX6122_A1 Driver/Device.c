@@ -15,7 +15,7 @@ Environment:
 --*/
 
 #include "driver.h"
-#include "device.h"
+#include "device.tmh"
 
 #ifdef ALLOC_PRAGMA
 #pragma alloc_text (PAGE, USBCameraSonixCNX6122A1DriverCreateDevice)
